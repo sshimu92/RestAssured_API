@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-25T19:25:41 PDT" name="Default suite" finished-at="2024-07-25T19:25:45 PDT" duration-ms="4091">
+  <suite started-at="2024-08-06T14:35:56 PDT" name="Default suite" finished-at="2024-08-06T14:36:00 PDT" duration-ms="3527">
     <groups>
     </groups>
-    <test started-at="2024-07-25T19:25:41 PDT" name="Default test" finished-at="2024-07-25T19:25:45 PDT" duration-ms="4091">
-      <class name="testCases.TC_VideoGameAPI">
-        <test-method signature="get_Method()[pri:1, instance:testCases.TC_VideoGameAPI@3d74bf60]" started-at="2024-07-25T19:25:41 PDT" name="get_Method" finished-at="2024-07-25T19:25:43 PDT" duration-ms="1942" status="PASS">
+    <test started-at="2024-08-06T14:35:56 PDT" name="Default test" finished-at="2024-08-06T14:36:00 PDT" duration-ms="3527">
+      <class name="testCases.PutPatchAndDeleteExamples">
+        <test-method signature="test_Put()[pri:0, instance:testCases.PutPatchAndDeleteExamples@3daa422a]" started-at="2024-08-06T14:35:56 PDT" name="test_Put" finished-at="2024-08-06T14:36:00 PDT" duration-ms="3492" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- get_Method -->
-        <test-method signature="post_Method()[pri:2, instance:testCases.TC_VideoGameAPI@3d74bf60]" started-at="2024-07-25T19:25:43 PDT" name="post_Method" finished-at="2024-07-25T19:25:44 PDT" duration-ms="1049" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- post_Method -->
-        <test-method signature="Put_Method()[pri:3, instance:testCases.TC_VideoGameAPI@3d74bf60]" started-at="2024-07-25T19:25:44 PDT" name="Put_Method" finished-at="2024-07-25T19:25:45 PDT" duration-ms="554" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Put_Method -->
-        <test-method signature="delete_Method()[pri:4, instance:testCases.TC_VideoGameAPI@3d74bf60]" started-at="2024-07-25T19:25:45 PDT" name="delete_Method" finished-at="2024-07-25T19:25:45 PDT" duration-ms="497" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- delete_Method -->
-      </class> <!-- testCases.TC_VideoGameAPI -->
+        </test-method> <!-- test_Put -->
+      </class> <!-- testCases.PutPatchAndDeleteExamples -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

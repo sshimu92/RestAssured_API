@@ -31,7 +31,7 @@ public class Reqres_Samples {
 		
 		HashMap data = new HashMap();
 		data.put("id", "731");
-		data.put("name", "morpheus");
+		data.put("name", "John");
 		data.put("job", "leader");
 		
 		Response res = 
@@ -47,7 +47,6 @@ public class Reqres_Samples {
 		      .statusCode(201)
 		      .log().body()
 		      .extract().response();
-		
 		
 		int verifyCode = res.statusCode();
 		
