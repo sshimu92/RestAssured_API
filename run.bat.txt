@@ -1,0 +1,2 @@
+cd C:\Users\shimu\eclipse-workspace\API_Project
+mvn clean install

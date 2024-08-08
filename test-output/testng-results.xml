@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-06T14:35:56 PDT" name="Default suite" finished-at="2024-08-06T14:36:00 PDT" duration-ms="3527">
+  <suite started-at="2024-08-07T19:50:41 PDT" name="Default suite" finished-at="2024-08-07T19:50:47 PDT" duration-ms="5972">
     <groups>
     </groups>
-    <test started-at="2024-08-06T14:35:56 PDT" name="Default test" finished-at="2024-08-06T14:36:00 PDT" duration-ms="3527">
-      <class name="testCases.PutPatchAndDeleteExamples">
-        <test-method signature="test_Put()[pri:0, instance:testCases.PutPatchAndDeleteExamples@3daa422a]" started-at="2024-08-06T14:35:56 PDT" name="test_Put" finished-at="2024-08-06T14:36:00 PDT" duration-ms="3492" status="PASS">
+    <test started-at="2024-08-07T19:50:41 PDT" name="Default test" finished-at="2024-08-07T19:50:47 PDT" duration-ms="5972">
+      <class name="miniProject.TC_VideoGameAPI">
+        <test-method signature="test_getAllVideoGames()[pri:1, instance:miniProject.TC_VideoGameAPI@2145b572]" started-at="2024-08-07T19:50:42 PDT" name="test_getAllVideoGames" finished-at="2024-08-07T19:50:43 PDT" duration-ms="1668" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_Put -->
-      </class> <!-- testCases.PutPatchAndDeleteExamples -->
+        </test-method> <!-- test_getAllVideoGames -->
+        <test-method signature="test_addNewVideoGame()[pri:2, instance:miniProject.TC_VideoGameAPI@2145b572]" started-at="2024-08-07T19:50:43 PDT" name="test_addNewVideoGame" finished-at="2024-08-07T19:50:44 PDT" duration-ms="564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_addNewVideoGame -->
+        <test-method signature="test_getVideoGame()[pri:3, instance:miniProject.TC_VideoGameAPI@2145b572]" started-at="2024-08-07T19:50:44 PDT" name="test_getVideoGame" finished-at="2024-08-07T19:50:44 PDT" duration-ms="592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_getVideoGame -->
+        <test-method signature="test_updateVideoGame()[pri:4, instance:miniProject.TC_VideoGameAPI@2145b572]" started-at="2024-08-07T19:50:44 PDT" name="test_updateVideoGame" finished-at="2024-08-07T19:50:44 PDT" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_updateVideoGame -->
+        <test-method signature="test_deleteVideoGame()[pri:5, instance:miniProject.TC_VideoGameAPI@2145b572]" started-at="2024-08-07T19:50:44 PDT" name="test_deleteVideoGame" finished-at="2024-08-07T19:50:47 PDT" duration-ms="3035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_deleteVideoGame -->
+      </class> <!-- miniProject.TC_VideoGameAPI -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
